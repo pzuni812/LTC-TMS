@@ -2,7 +2,7 @@
 
 ### Basic commands to put your work on Github
 
-#### step 1: get the base project code onto your computer
+#### step 1: Get the base project code onto your computer
 copy the codebase to your computer
 ```
 git clone https://github.com/tan-ku/LTC-TMS.git
@@ -13,16 +13,16 @@ create a branch for your project
 git checkout -b my_example_branch
 ```
 
-#### step 2: update/add new code
+#### step 2: Update/add new code
 use a code editor of your choice to make changes
 
-#### step 3: make the version control tool (git) track your new code
-(option 1) stage all changes in your directory to be part of the branch history
+#### step 3: Make the version control tool (git) track your new code
+(option 1) Stage all changes in your directory to be part of the branch history
 ```
 git add .
 ```
 
-(option 2) stage a file in to be part of the branch history
+(option 2) Stage a file in to be part of the branch history
 ```
 git add ./my_example_file.jsx
 ```
@@ -37,13 +37,13 @@ check which lines of code have changed
 git diff
 ```
 
-#### step 4: make your changes part of the code's history
+#### step 4: Make your changes part of the code's history
 add staged files as a single commit to the branch history
 ```
 git commit -m 'this is a message describing what changed in this commit'
 ```
 
-#### step 5: make the remote server (Github) aware of your updates
+#### step 5: Make the remote server (Github) aware of your updates
 (first time) tell Github that there is a new branch and update the branch
 ```
 git push --set-upstream origin my_example_branch
